@@ -14,6 +14,7 @@ In this setup, Server 1 contains the Primary database node, and Server 2 contain
 ## Explanation
 
 - Why each element is added
+
 Load Balancer (HAProxy): Distributes traffic across multiple servers, avoids overloading a single node.
 
 Multiple Servers: Improves reliability, allows traffic distribution, and enables scaling.
@@ -21,11 +22,13 @@ Multiple Servers: Improves reliability, allows traffic distribution, and enables
 Primary-Replica DB: Increases data availability and read performance, enables database failover.
 
 - Load Balancer Mode & Algorithm
+
 We use a round-robin distribution algorithm, which sends each new connection to the next available server in order. This ensures even traffic distribution across all servers.
 
 This is an Active-Active setup, meaning both backend servers are serving requests simultaneously. In contrast, an Active-Passive setup has one active server and one standby server that only takes over if the first fails.
 
 - Primary vs Replica Node (Database)
+
 The Primary node can handle both reads and writes.
 
 The Replica node can only handle reads, and it syncs changes from the Primary.
