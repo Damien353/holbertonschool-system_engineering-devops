@@ -9,6 +9,7 @@ In this setup, Server 1 contains the Primary database node, and Server 2 contain
 
 ## Whiteboard
 
+![Schéma projet web infrastructure design task 1 drawio](https://github.com/user-attachments/assets/83e697f8-c82a-4561-9f3d-4798e1c2fa9e)
 
 
 ## Explanation
