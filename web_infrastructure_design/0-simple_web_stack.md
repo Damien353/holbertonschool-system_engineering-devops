@@ -8,6 +8,7 @@ The response is then sent back through Nginx to the user’s browser.
 
 ## Whiteboard
 
+![Schéma projet web infrastructure design task 0 drawio](https://github.com/user-attachments/assets/6ff75229-781f-4d2c-a17d-0a7e3ef07b26)
 
 
 ## Questions
