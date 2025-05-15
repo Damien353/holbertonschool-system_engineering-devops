@@ -4,6 +4,8 @@ I designed a web infrastructure with three web servers protected by three firewa
 
 ## Whiteboard
 
+![Schéma projet web infrastructure design task 2 drawio](https://github.com/user-attachments/assets/0a0ef4c5-fccf-4816-8bce-638c0759a35c)
+
 
 ## Explanation
 
